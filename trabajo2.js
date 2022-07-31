@@ -70,6 +70,7 @@ const unidades = [{
         empresa: "Urquiza",
         patente: "AA591RL",
         motor: "Scania",
+        km : 0
 
     }, {
         interno: "3632",
