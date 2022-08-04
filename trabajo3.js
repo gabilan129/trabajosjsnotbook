@@ -58,12 +58,6 @@ function unidadesCreador() {
         km: 0
     }];
 
-    // let unidadesAcrear = parseInt(prompt("ingrese la cantidad de unidades que desee crear"))
-
-    // for (let i = 1; i <= unidadesAcrear; i++) {
-    //     unidadess.push(new cUnidades(parseInt(prompt("ingrese el interno")), prompt("ingrese la patente"), prompt("ingrese el tipo de motor"), parseFloat(prompt("ingrese los km de la unidad")),prompt("ingrese la empresa de la unidad").toUpperCase()));
-
-    // }
 
 
 
@@ -114,9 +108,24 @@ function unidadesCreador() {
                 }
                 break;
             case "1102":
-                let parteUnidad1102 = prompt("ingrese el parte de novedades");
-                console.log(parteUnidad1102);
-                console.log("se encontro la unidad 1102 desea generar el parte");
+                alert("se encontro la unidad 1101")
+                alert("se procede con el parte de novedades")
+                let parteUnidad1102 = prompt("ingrese el sector del parte");
+           let cantidadDepartes = parseInt(prompt("cuantos partes desea ingresar al sector"))
+
+
+                if (parteUnidad1102 == "carroceria") {
+                    for (let i = 0; i < cantidadDepartes; i++) {
+                        parteUnidad1101 = prompt("ingrese el parte de novedades de carroceria numero" + " " + (i + 1))
+                        console.log(parteUnidad1102);
+                    }
+                } else if (parteUnidad1101 == "mecanica") {
+                    for (let i = 0; i < cantidadDepartes; i++) {
+                        parteUnidad1101 = prompt("ingrese el parte de novedades de mecanica numero" + " " + (i + 1))
+                        console.log(parteUnidad1102);
+                    }
+
+                }
                 break;
             case "2121":
                 let parteUnidad2121 = prompt("ingrese el parte de novedades");
