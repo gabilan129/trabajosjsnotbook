@@ -83,6 +83,15 @@ function unidadesCreador() {
         }
     }
 
+    const empr = unidadess.filter((empr) => empr.empresa.includes('Chevallier'))
+    console.log( empr);
+}
+
+unidadesCreador()
+
+
+
+function parteDeReparacion() {
     let unidadEncontrada = prompt("ingrese la unidad que desea generar el parte")
     let cantidadDepartes1101;
     let cantidadDepartes1102;
@@ -104,12 +113,12 @@ function unidadesCreador() {
                 if (parteUnidad1101 == "carroceria") {
                     for (let i = 0; i < cantidadDepartes1101; i++) {
                         parteUnidad1101 = prompt("ingrese el parte de novedades de carroceria numero" + " " + (i + 1))
-                        console.log(parteUnidad1101);
+                        console.log("carroceria :" + " " + parteUnidad1101);
                     }
                 } else if (parteUnidad1101 == "mecanica") {
                     for (let i = 0; i < cantidadDepartes1101; i++) {
                         parteUnidad1101 = prompt("ingrese el parte de novedades de mecanica numero" + " " + (i + 1))
-                        console.log(parteUnidad1101);
+                        console.log("mecanica :" + " " + parteUnidad1101);
                     }
 
                 }
@@ -124,12 +133,12 @@ function unidadesCreador() {
                 if (parteUnidad1102 == "carroceria") {
                     for (let i = 0; i < cantidadDepartes1102; i++) {
                         parteUnidad1102 = prompt("ingrese el parte de novedades de carroceria numero" + " " + (i + 1))
-                        console.log(parteUnidad1102);
+                        console.log("carroceria :" + " " + parteUnidad1102);
                     }
                 } else if (parteUnidad1102 == "mecanica") {
                     for (let i = 0; i < cantidadDepartes1102; i++) {
                         parteUnidad1102 = prompt("ingrese el parte de novedades de mecanica numero" + " " + (i + 1))
-                        console.log(parteUnidad1102);
+                        console.log("mecanica :" + " " + parteUnidad1102);
                     }
 
                 }
@@ -143,12 +152,12 @@ function unidadesCreador() {
                 if (parteUnidad2121 == "carroceria") {
                     for (let i = 0; i < cantidadDepartes2121; i++) {
                         parteUnidad2121 = prompt("ingrese el parte de novedades de carroceria numero" + " " + (i + 1))
-                        console.log(parteUnidad2121);
+                        console.log( "carroceria :" + " " + parteUnidad2121);
                     }
                 } else if (parteUnidad2121 == "mecanica") {
                     for (let i = 0; i < cantidadDepartes2121; i++) {
                         parteUnidad2121 = prompt("ingrese el parte de novedades de mecanica numero" + " " + (i + 1))
-                        console.log(parteUnidad2121);
+                        console.log("mecanica :" + " " + parteUnidad2121);
                     }
 
                 }
@@ -164,12 +173,12 @@ function unidadesCreador() {
                 if (parteUnidad2131 == "carroceria") {
                     for (let i = 0; i < cantidadDepartes2131; i++) {
                         parteUnidad2131 = prompt("ingrese el parte de novedades de carroceria numero" + " " + (i + 1))
-                        console.log(parteUnidad2131);
+                        console.log( "carroceria :" + " " + parteUnidad2131);
                     }
                 } else if (parteUnidad2131 == "mecanica") {
                     for (let i = 0; i < cantidadDepartes2131; i++) {
                         parteUnidad2131 = prompt("ingrese el parte de novedades de mecanica numero" + " " + (i + 1))
-                        console.log(parteUnidad2131);
+                        console.log("mecanica :" + " "+ parteUnidad2131);
                     }
 
                 }
@@ -185,12 +194,12 @@ function unidadesCreador() {
                 if (parteUnidad2141 == "carroceria") {
                     for (let i = 0; i < cantidadDepartes2141; i++) {
                         parteUnidad2141 = prompt("ingrese el parte de novedades de carroceria numero" + " " + (i + 1))
-                        console.log(parteUnidad2141);
+                        console.log(" carroceria  :" + " " + parteUnidad2141);
                     }
                 } else if (parteUnidad2141 == "mecanica") {
                     for (let i = 0; i < cantidadDepartes2141; i++) {
                         parteUnidad2141 = prompt("ingrese el parte de novedades de mecanica numero" + " " + (i + 1))
-                        console.log(parteUnidad2141);
+                        console.log(" mecanica :" + " " + parteUnidad2141);
                     }
 
                 }
@@ -205,12 +214,12 @@ function unidadesCreador() {
                 if (parteUnidad3631 == "carroceria") {
                     for (let i = 0; i < cantidadDepartes3631; i++) {
                         parteUnidad3631 = prompt("ingrese el parte de novedades de carroceria numero" + " " + (i + 1))
-                        console.log(parteUnidad3631);
+                        console.log(" carroceria " + " " +  parteUnidad3631);
                     }
                 } else if (parteUnidad3631 == "mecanica") {
                     for (let i = 0; i < cantidadDepartes3631; i++) {
                         let parteUnidad3631 = prompt("ingrese el parte de novedades de mecanica numero" + " " + (i + 1))
-                        console.log(parteUnidad3631);
+                        console.log( "mecanica" + " " +  parteUnidad3631);
                     }
 
                 }
@@ -223,12 +232,12 @@ function unidadesCreador() {
                 if (parteUnidad3481 == "carroceria") {
                     for (let i = 0; i < cantidadDepartes3481; i++) {
                         parteUnidad3481 = prompt("ingrese el parte de novedades de carroceria numero" + " " + (i + 1))
-                        console.log(parteUnidad3481);
+                        console.log( "carroceria : " + " " + parteUnidad3481);
                     }
                 } else if (parteUnidad3481 == "mecanica") {
                     for (let i = 0; i < cantidadDepartes3481; i++) {
                         parteUnidad3841 = prompt("ingrese el parte de novedades de mecanica numero" + " " + (i + 1))
-                        console.log(parteUnidad3481);
+                        console.log(" mecanica : " + " " + parteUnidad3481);
                     }
 
                 }
@@ -236,7 +245,7 @@ function unidadesCreador() {
 
 
         }
-        unidadEncontrada = prompt("ingrese la nueva unidad para generar un parte ")
+        unidadEncontrada = prompt("ingrese la nueva unidad para generar un o no ingrese nada para finalizar ")
     }
     console.log("fin del parte de novedades")
 }
@@ -248,4 +257,4 @@ function unidadesCreador() {
 
 
 
-unidadesCreador()
+parteDeReparacion()
