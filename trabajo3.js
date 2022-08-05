@@ -114,12 +114,12 @@ function parteDeReparacion() {
                 if (parteUnidad1101 == "carroceria") {
                     for (let i = 0; i < cantidadDepartes1101; i++) {
                         parteUnidad1101 = prompt("ingrese el parte de novedades de carroceria numero" + " " + (i + 1))
-                        console.log("carroceria :" + " " + parteUnidad1101);
+                        console.log("1101"+" " +"carroceria :" + " " + parteUnidad1101);
                     }
                 } else if (parteUnidad1101 == "mecanica") {
                     for (let i = 0; i < cantidadDepartes1101; i++) {
                         parteUnidad1101 = prompt("ingrese el parte de novedades de mecanica numero" + " " + (i + 1))
-                        console.log("mecanica :" + " " + parteUnidad1101);
+                        console.log( "1101" +" "+"mecanica :" + " " + parteUnidad1101);
                     }
 
                 }
@@ -134,12 +134,12 @@ function parteDeReparacion() {
                 if (parteUnidad1102 == "carroceria") {
                     for (let i = 0; i < cantidadDepartes1102; i++) {
                         parteUnidad1102 = prompt("ingrese el parte de novedades de carroceria numero" + " " + (i + 1))
-                        console.log("carroceria :" + " " + parteUnidad1102);
+                        console.log(" 1102 " +"carroceria :" + " " + parteUnidad1102);
                     }
                 } else if (parteUnidad1102 == "mecanica") {
                     for (let i = 0; i < cantidadDepartes1102; i++) {
                         parteUnidad1102 = prompt("ingrese el parte de novedades de mecanica numero" + " " + (i + 1))
-                        console.log("mecanica :" + " " + parteUnidad1102);
+                        console.log(" 1102" + " " + "mecanica :" + " " + parteUnidad1102);
                     }
 
                 }
@@ -153,12 +153,12 @@ function parteDeReparacion() {
                 if (parteUnidad2121 == "carroceria") {
                     for (let i = 0; i < cantidadDepartes2121; i++) {
                         parteUnidad2121 = prompt("ingrese el parte de novedades de carroceria numero" + " " + (i + 1))
-                        console.log( "carroceria :" + " " + parteUnidad2121);
+                        console.log("2121" +" "+  "carroceria :" + " " + parteUnidad2121);
                     }
                 } else if (parteUnidad2121 == "mecanica") {
                     for (let i = 0; i < cantidadDepartes2121; i++) {
                         parteUnidad2121 = prompt("ingrese el parte de novedades de mecanica numero" + " " + (i + 1))
-                        console.log("mecanica :" + " " + parteUnidad2121);
+                        console.log("2121"+" "+ "mecanica :" + " " + parteUnidad2121);
                     }
 
                 }
@@ -174,12 +174,12 @@ function parteDeReparacion() {
                 if (parteUnidad2131 == "carroceria") {
                     for (let i = 0; i < cantidadDepartes2131; i++) {
                         parteUnidad2131 = prompt("ingrese el parte de novedades de carroceria numero" + " " + (i + 1))
-                        console.log( "carroceria :" + " " + parteUnidad2131);
+                        console.log( "2131"+" "+ "carroceria :" + " " + parteUnidad2131);
                     }
                 } else if (parteUnidad2131 == "mecanica") {
                     for (let i = 0; i < cantidadDepartes2131; i++) {
                         parteUnidad2131 = prompt("ingrese el parte de novedades de mecanica numero" + " " + (i + 1))
-                        console.log("mecanica :" + " "+ parteUnidad2131);
+                        console.log("2131"+" "+ "mecanica :" + " "+ parteUnidad2131);
                     }
 
                 }
@@ -195,12 +195,12 @@ function parteDeReparacion() {
                 if (parteUnidad2141 == "carroceria") {
                     for (let i = 0; i < cantidadDepartes2141; i++) {
                         parteUnidad2141 = prompt("ingrese el parte de novedades de carroceria numero" + " " + (i + 1))
-                        console.log(" carroceria  :" + " " + parteUnidad2141);
+                        console.log("2141"+" "+ "carroceria  :" + " " + parteUnidad2141);
                     }
                 } else if (parteUnidad2141 == "mecanica") {
                     for (let i = 0; i < cantidadDepartes2141; i++) {
                         parteUnidad2141 = prompt("ingrese el parte de novedades de mecanica numero" + " " + (i + 1))
-                        console.log(" mecanica :" + " " + parteUnidad2141);
+                        console.log("2141"+" "+ "mecanica :" + " " + parteUnidad2141);
                     }
 
                 }
@@ -215,12 +215,12 @@ function parteDeReparacion() {
                 if (parteUnidad3631 == "carroceria") {
                     for (let i = 0; i < cantidadDepartes3631; i++) {
                         parteUnidad3631 = prompt("ingrese el parte de novedades de carroceria numero" + " " + (i + 1))
-                        console.log(" carroceria " + " " +  parteUnidad3631);
+                        console.log("3631 "+" "+ "carroceria: " + " " +  parteUnidad3631);
                     }
                 } else if (parteUnidad3631 == "mecanica") {
                     for (let i = 0; i < cantidadDepartes3631; i++) {
                         let parteUnidad3631 = prompt("ingrese el parte de novedades de mecanica numero" + " " + (i + 1))
-                        console.log( "mecanica" + " " +  parteUnidad3631);
+                        console.log("3631"+" " + "mecanica:" + " " +  parteUnidad3631);
                     }
 
                 }
@@ -233,12 +233,12 @@ function parteDeReparacion() {
                 if (parteUnidad3481 == "carroceria") {
                     for (let i = 0; i < cantidadDepartes3481; i++) {
                         parteUnidad3481 = prompt("ingrese el parte de novedades de carroceria numero" + " " + (i + 1))
-                        console.log( "carroceria : " + " " + parteUnidad3481);
+                        console.log(" 3481"+" "+  "carroceria : " + " " + parteUnidad3481);
                     }
                 } else if (parteUnidad3481 == "mecanica") {
                     for (let i = 0; i < cantidadDepartes3481; i++) {
-                        parteUnidad3841 = prompt("ingrese el parte de novedades de mecanica numero" + " " + (i + 1))
-                        console.log(" mecanica : " + " " + parteUnidad3481);
+                        parteUnidad3481 = prompt("ingrese el parte de novedades de mecanica numero" + " " + (i + 1))
+                        console.log("3481"+" "+  " mecanica : " + " " + parteUnidad3481);
                     }
 
                 }
