@@ -83,6 +83,7 @@ function unidadesCreador() {
         }
     }
 
+    console.log("las siguientes unidades son de la empresa chevallier")
     const empr = unidadess.filter((empr) => empr.empresa.includes('Chevallier'))
     console.log( empr);
 }
