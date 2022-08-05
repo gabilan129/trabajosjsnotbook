@@ -84,6 +84,14 @@ function unidadesCreador() {
     }
 
     let unidadEncontrada = prompt("ingrese la unidad que desea generar el parte")
+    let cantidadDepartes1101;
+    let cantidadDepartes1102;
+    let cantidadDepartes2121;
+    let cantidadDepartes2131;
+    let cantidadDepartes2141;
+    let cantidadDepartes3631;
+    let cantidadDepartes3481;
+
 
     while (unidadEncontrada != "") {
         switch (unidadEncontrada) {
@@ -91,16 +99,15 @@ function unidadesCreador() {
                 alert("se encontro la unidad 1101")
                 alert("se procede con el parte de novedades")
                 let parteUnidad1101 = prompt("ingrese el sector del parte");
-                let cantidadDepartes = parseInt(prompt("cuantos partes desea ingresar al sector"))
-
+                cantidadDepartes1101 = parseInt(prompt("cuantos partes desea ingresar al sector"))
 
                 if (parteUnidad1101 == "carroceria") {
-                    for (let i = 0; i < cantidadDepartes; i++) {
+                    for (let i = 0; i < cantidadDepartes1101; i++) {
                         parteUnidad1101 = prompt("ingrese el parte de novedades de carroceria numero" + " " + (i + 1))
                         console.log(parteUnidad1101);
                     }
                 } else if (parteUnidad1101 == "mecanica") {
-                    for (let i = 0; i < cantidadDepartes; i++) {
+                    for (let i = 0; i < cantidadDepartes1101; i++) {
                         parteUnidad1101 = prompt("ingrese el parte de novedades de mecanica numero" + " " + (i + 1))
                         console.log(parteUnidad1101);
                     }
@@ -108,50 +115,125 @@ function unidadesCreador() {
                 }
                 break;
             case "1102":
-                alert("se encontro la unidad 1101")
+                alert("se encontro la unidad 1102")
                 alert("se procede con el parte de novedades")
                 let parteUnidad1102 = prompt("ingrese el sector del parte");
-           let cantidadDepartes = parseInt(prompt("cuantos partes desea ingresar al sector"))
+                cantidadDepartes1102 = parseInt(prompt("cuantos partes desea ingresar al sector"))
 
 
                 if (parteUnidad1102 == "carroceria") {
-                    for (let i = 0; i < cantidadDepartes; i++) {
-                        parteUnidad1101 = prompt("ingrese el parte de novedades de carroceria numero" + " " + (i + 1))
+                    for (let i = 0; i < cantidadDepartes1102; i++) {
+                        parteUnidad1102 = prompt("ingrese el parte de novedades de carroceria numero" + " " + (i + 1))
                         console.log(parteUnidad1102);
                     }
-                } else if (parteUnidad1101 == "mecanica") {
-                    for (let i = 0; i < cantidadDepartes; i++) {
-                        parteUnidad1101 = prompt("ingrese el parte de novedades de mecanica numero" + " " + (i + 1))
+                } else if (parteUnidad1102 == "mecanica") {
+                    for (let i = 0; i < cantidadDepartes1102; i++) {
+                        parteUnidad1102 = prompt("ingrese el parte de novedades de mecanica numero" + " " + (i + 1))
                         console.log(parteUnidad1102);
                     }
 
                 }
                 break;
             case "2121":
-                let parteUnidad2121 = prompt("ingrese el parte de novedades");
-                console.log(parteUnidad2121);
-                console.log("se encontro la unidad 2121 desea generar el parte");
+                alert("se encontro la unidad 2121")
+                alert("se procede con el parte de novedades")
+                let parteUnidad2121 = prompt("ingrese el sector del parte");
+                cantidadDepartes2121 = parseInt(prompt("cuantos partes desea ingresar al sector"))
+
+                if (parteUnidad2121 == "carroceria") {
+                    for (let i = 0; i < cantidadDepartes2121; i++) {
+                        parteUnidad2121 = prompt("ingrese el parte de novedades de carroceria numero" + " " + (i + 1))
+                        console.log(parteUnidad2121);
+                    }
+                } else if (parteUnidad2121 == "mecanica") {
+                    for (let i = 0; i < cantidadDepartes2121; i++) {
+                        parteUnidad2121 = prompt("ingrese el parte de novedades de mecanica numero" + " " + (i + 1))
+                        console.log(parteUnidad2121);
+                    }
+
+                }
+
                 break;
             case "2131":
-                let parteUnidad2131 = prompt("ingrese el parte de novedades");
-                console.log(parteUnidad2131);
-                console.log("se encontro la unidad 2131 desea generar el parte");
+                alert("se encontro la unidad 2131")
+                alert("se procede con el parte de novedades")
+                let parteUnidad2131 = prompt("ingrese el sector del parte");
+                cantidadDepartes2131 = parseInt(prompt("cuantos partes desea ingresar al sector"))
+
+
+                if (parteUnidad2131 == "carroceria") {
+                    for (let i = 0; i < cantidadDepartes2131; i++) {
+                        parteUnidad2131 = prompt("ingrese el parte de novedades de carroceria numero" + " " + (i + 1))
+                        console.log(parteUnidad2131);
+                    }
+                } else if (parteUnidad2131 == "mecanica") {
+                    for (let i = 0; i < cantidadDepartes2131; i++) {
+                        parteUnidad2131 = prompt("ingrese el parte de novedades de mecanica numero" + " " + (i + 1))
+                        console.log(parteUnidad2131);
+                    }
+
+                }
                 break;
             case "2141":
-                let parteUnidad2141 = prompt("ingrese el parte de novedades");
-                console.log(parteUnidad2141);
-                console.log("se encontro la unidad 2141 desea generar el parte");
+                alert("se encontro la unidad 2141")
+                alert("se procede con el parte de novedades")
+                let parteUnidad2141 = prompt("ingrese el sector del parte");
+                cantidadDepartes2141 = parseInt(prompt("cuantos partes desea ingresar al sector"))
+
+
+
+                if (parteUnidad2141 == "carroceria") {
+                    for (let i = 0; i < cantidadDepartes2141; i++) {
+                        parteUnidad2141 = prompt("ingrese el parte de novedades de carroceria numero" + " " + (i + 1))
+                        console.log(parteUnidad2141);
+                    }
+                } else if (parteUnidad2141 == "mecanica") {
+                    for (let i = 0; i < cantidadDepartes2141; i++) {
+                        parteUnidad2141 = prompt("ingrese el parte de novedades de mecanica numero" + " " + (i + 1))
+                        console.log(parteUnidad2141);
+                    }
+
+                }
                 break;
             case "3631":
-                let parteUnidad3631 = prompt("ingrese el parte de novedades");
-                console.log(parteUnidad3631);
-                console.log("se encontro la unidad 3631 desea generar el parte");
+                alert("se encontro la unidad 3631")
+                alert("se procede con el parte de novedades")
+                let parteUnidad3631 = prompt("ingrese el sector del parte");
+                cantidadDepartes3631 = parseInt(prompt("cuantos partes desea ingresar al sector"))
+
+
+                if (parteUnidad3631 == "carroceria") {
+                    for (let i = 0; i < cantidadDepartes3631; i++) {
+                        parteUnidad3631 = prompt("ingrese el parte de novedades de carroceria numero" + " " + (i + 1))
+                        console.log(parteUnidad3631);
+                    }
+                } else if (parteUnidad3631 == "mecanica") {
+                    for (let i = 0; i < cantidadDepartes3631; i++) {
+                        let parteUnidad3631 = prompt("ingrese el parte de novedades de mecanica numero" + " " + (i + 1))
+                        console.log(parteUnidad3631);
+                    }
+
+                }
                 break;
-            case "3841":
-                let parteUnidad3841 = prompt("ingrese el parte de novedades");
-                console.log(parteUnidad3841);
-                console.log("se encontro la unidad 3841 desea generar el parte");
+            case "3481":
+                alert("se encontro la unidad 3481")
+                alert("se procede con el parte de novedades")
+                let parteUnidad3481 = prompt("ingrese el sector del parte");
+                cantidadDepartes3481 = parseInt(prompt("cuantos partes desea ingresar al sector"))
+                if (parteUnidad3481 == "carroceria") {
+                    for (let i = 0; i < cantidadDepartes3481; i++) {
+                        parteUnidad3481 = prompt("ingrese el parte de novedades de carroceria numero" + " " + (i + 1))
+                        console.log(parteUnidad3481);
+                    }
+                } else if (parteUnidad3481 == "mecanica") {
+                    for (let i = 0; i < cantidadDepartes3481; i++) {
+                        parteUnidad3841 = prompt("ingrese el parte de novedades de mecanica numero" + " " + (i + 1))
+                        console.log(parteUnidad3481);
+                    }
+
+                }
                 break;
+
 
         }
         unidadEncontrada = prompt("ingrese la nueva unidad para generar un parte ")
