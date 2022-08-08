@@ -75,6 +75,7 @@ for (const imagen of misTajetasDeCompra) {
 
 
 
+
 function saludar() {
     alert("bienvenido a intervalo gym")
 }
@@ -93,11 +94,11 @@ class Suplementos {
 
 const productos = [];
 
-
+        
 let precio = 0;
-let producto = prompt("ingrese el producto que desea \nproteina: star,hard o animal \ncreatina star,hard o animal\nquema grasa star,hard o animal ").toUpperCase();
 
 
+let producto = prompt("ingrese el producto que desea \nproteina: star,hard o animal \ncreatina star,hard o animal\nquema grasa star,hard o animal ");
 
 function compra() {
 
