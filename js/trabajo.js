@@ -48,8 +48,7 @@ const misTajetasDeCompra = [{
 }, {
     nombre: "quema grasa hard",
     precio: "$ 3500",
-    imagen: src = "
-trabajosjsnotbook/assets/quemaGrasa/QgHard.jpg"
+    imagen: src = "trabajosjsnotbook/assets/quemaGrasa/QgHard.jpg"
 }, ]
 
 
