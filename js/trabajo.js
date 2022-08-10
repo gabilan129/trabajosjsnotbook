@@ -16,35 +16,35 @@ class suplementoTarjeta {
 const misTajetasDeCompra = [{
     nombre: "proteina star",
     precio: "$ 5000",
-    imagen: src = "../assets/proteinas/proteinaStar.jpg"
+    imagen: src = "./assets/proteinas/proteinaStar.jpg"
 }, {
     nombre: "proteina animal",
     precio: "$ 6000",
-    imagen: src = "../assets/proteinas/proteinaAnimal.jpg"
+    imagen: src = "./assets/proteinas/proteinaAnimal.jpg"
 }, {
     nombre: "proteina hard",
     precio: "$ 1500",
-    imagen: src = "../assets/proteinas/proteinaHard.jpg"
+    imagen: src = "./assets/proteinas/proteinaHard.jpg"
 }, {
     nombre: "creatina star",
     precio: "$ 720",
-    imagen: src = "../assets/creatinas/creatinaStar.jpg"
+    imagen: src = "./assets/creatinas/creatinaStar.jpg"
 }, {
     nombre: "creatina animal",
     precio: "$ 800",
-    imagen: src = "../assets/creatinas/creatinaAnimal.jpg"
+    imagen: src = "./assets/creatinas/creatinaAnimal.jpg"
 }, {
     nombre: "creatina hard",
     precio: "$ 500",
-    imagen: src = "../assets/creatinas/creatinaHard.jpg"
+    imagen: src = "./assets/creatinas/creatinaHard.jpg"
 }, {
     nombre: "quema grasa star",
     precio: "$ 1720",
-    imagen: src = "../assets/quemaGrasa/Qgstar.jpg"
+    imagen: src = "./assets/quemaGrasa/Qgstar.jpg"
 }, {
     nombre: "quema grasa animal",
     precio: "$ 1800",
-    imagen: src="../assets/quemaGrasa/QgAnimal.jpg"
+    imagen: src="./assets/quemaGrasa/QgAnimal.jpg"
 }, {
     nombre: "quema grasa hard",
     precio: "$ 3500",
