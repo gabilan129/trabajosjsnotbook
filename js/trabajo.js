@@ -44,7 +44,7 @@ const misTajetasDeCompra = [{
 }, {
     nombre: "quema grasa animal",
     precio: "$ 1800",
-    imagen: src = "../assets/quemaGrasa/QgAnimal.jpg"
+    imagen: src="../assets/quemaGrasa/QgAnimal.jpg"
 }, {
     nombre: "quema grasa hard",
     precio: "$ 3500",
