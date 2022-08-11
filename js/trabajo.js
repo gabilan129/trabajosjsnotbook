@@ -56,7 +56,8 @@ const misTajetasDeCompra = [{
 }, {
     nombre: "quema grasa hard",
     precio: 3500,
-    imagen: src = "./assets/quemaGrasa/QgHard.jpg"
+    imagen: src = "./assets/quemaGrasa/QgHard.jpg" ,
+    Unidades : 220
 }, ]
 
 
@@ -97,15 +98,12 @@ botonFinDeCompra.addEventListener ("click", (e) => {
     e.preventDefault ();
     precioFinal = carrito.map (carrito => carrito.precio)
     checkOut = precioFinal.reduce ((ac,el) => ac + el,0)
+    checkOut = checkOut * 1.21;
     console.log ("El total a pagar es $" + checkOut)
 
+    
+    
 })
-
-
-
-
-
-
 
 
 
