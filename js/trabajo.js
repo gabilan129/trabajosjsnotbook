@@ -27,7 +27,7 @@ const misTajetasDeCompra = [{
     imagen: src = "./assets/proteinas/proteinaStar.jpg"
 }, {
     nombre: "proteina animal",
-    precio:  6000,
+    precio: 6000,
     imagen: src = "./assets/proteinas/proteinaAnimal.jpg"
 }, {
     nombre: "proteina hard",
@@ -35,7 +35,7 @@ const misTajetasDeCompra = [{
     imagen: src = "./assets/proteinas/proteinaHard.jpg"
 }, {
     nombre: "creatina star",
-    precio:  720,
+    precio: 720,
     imagen: src = "./assets/creatinas/creatinaStar.jpg"
 }, {
     nombre: "creatina animal",
@@ -52,12 +52,12 @@ const misTajetasDeCompra = [{
 }, {
     nombre: "quema grasa animal",
     precio: 1800,
-    imagen: src="./assets/quemaGrasa/QgAnimal.jpg"
+    imagen: src = "./assets/quemaGrasa/QgAnimal.jpg"
 }, {
     nombre: "quema grasa hard",
     precio: 3500,
-    imagen: src = "./assets/quemaGrasa/QgHard.jpg" ,
-    Unidades : 220
+    imagen: src = "./assets/quemaGrasa/QgHard.jpg",
+    Unidades: 220
 }, ]
 
 
@@ -65,53 +65,54 @@ const misTajetasDeCompra = [{
 let cards = document.getElementById("tarjetaDos");
 for (const imagen of misTajetasDeCompra) {
     let card = document.createElement("div");
-    card.className = "card col-3 text-align-center";
+    card.className = "card";
     card.innerHTML = `
     <div class="card" style="width: 18rem;">
     <img src= ${imagen.imagen} class="card-img-top" alt="...">
     <h5 class="card-title">${imagen.nombre}</h5>
     <p class="card-text">${imagen.precio}</p>
-    <button id="miBoton--${imagen.nombre}" class="btn btn-primary">COMPRAR</button></div>
+    <button id="miBoton__${imagen.nombre}" class="btn btn-primary">agregar al carrito</button></div>
+    <button id="miBoton2__${imagen.nombre}" class="btn btn-primary">quitar del carrito</button></div>
+
     </div>`
     cards.append(card);
-    
-    
-    
-    
-    let miBoton = document.getElementById(`miBoton--${imagen.nombre}`);
-    
+
+
+
+
+    let miBoton = document.getElementById(`miBoton__${imagen.nombre}`);
+
     miBoton.addEventListener("click", (e) => {
         e.preventDefault();
-        console.log("Agregaste" + " " + imagen.nombre + " " +"al carrito");
+        console.log("Agregaste" + " " + imagen.nombre + " " + "al carrito");
         carrito.push(imagen);
+        localStorage.setItem("carrito", JSON.stringify(carrito))
     })
-    
+
+    let miBoton2 = document.getElementById(`miBoton2__${imagen.nombre}`);
+    miBoton2.addEventListener('click', (e) => {
+        e.preventDefault();
+        console.log(`quitaste ${imagen.nombre} del carrito`);
+        carrito.pop(imagen);
+         localStorage.removeItem(`carrito`, JSON.stringify(carrito));
+
+
+   } )
 }
-    
+
 
 
 
 let botonFinDeCompra = document.getElementById("fin")
 let precioFinal = 0
 let checkOut = 0
-botonFinDeCompra.addEventListener ("click", (e) => {
-    e.preventDefault ();
-    precioFinal = carrito.map (carrito => carrito.precio)
-    checkOut = precioFinal.reduce ((ac,el) => ac + el,0)
+botonFinDeCompra.addEventListener("click", (e) => {
+    e.preventDefault();
+    precioFinal = carrito.map(carrito => carrito.precio)
+    checkOut = precioFinal.reduce((ac, el) => ac + el, 0)
     checkOut = checkOut * 1.21;
-    console.log ("El total a pagar es $" + checkOut)
+    console.log("El total a pagar es $" + checkOut)
 
-    
-    
+
+
 })
-
-
-
-
-
-
-
-
-
-
-
